@@ -11,7 +11,7 @@ An opinionated boilerplate for NodeJS Hapi framework for a REST API
 # Boilerplate Info
 
 * Test routes are on `/` and `/hello/{param}`
-* The boilerplate uses (Knex)[http://knexjs.org/] to structure SQL queries
+* The boilerplate uses [Knex](http://knexjs.org/) to structure SQL queries
 * The file structure is fairly simple
     * `api`
         * `[route object (e.g users, payments]`
