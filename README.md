@@ -13,6 +13,10 @@ An opinionated boilerplate for NodeJS Hapi framework for a REST API
 * Test routes are on `/` and `/hello/{param}`
 * The boilerplate uses (Knex)[http://knexjs.org/] to structure SQL queries
 * The file structure is fairly simple
-** `api`
-*** `[route object (e.g users, payments]`
-**** `[directory name]_routes.js` e.g `users_routes.js`
+    * `api`
+        * `[route object (e.g users, payments]`
+            * `[directory name]_routes.js` e.g `users_routes.js`
+
+# TODO
+
+* Add Auth logic into boilerplate using passport.js
