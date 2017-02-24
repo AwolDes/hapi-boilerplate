@@ -19,4 +19,4 @@ An opinionated boilerplate for NodeJS Hapi framework for a REST API
 
 # TODO
 
-* Add Auth logic into boilerplate using passport.js
+- [ ] Add Auth logic into boilerplate using passport.js
