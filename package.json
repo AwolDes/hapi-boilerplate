@@ -6,7 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon bootstrap.js",
-    "prod": "nodemon bootstrap.js"
+    "prod": "nodemon bootstrap.js",
+    "make:migration": "./node_modules/.bin/knex migrate:make",
+    "run:migrations": "./node_modules/.bin/knex migrate:latest",
+    "make:seed": "./node_modules/.bin/knex seed:make",
+    "run:seeds": "./node_modules/.bin/knex seed:run"
   },
   "dependencies": {
     "hapi": "^17.5.2",
